@@ -1,0 +1,54 @@
+{
+  "name": "coursecraft-ai-backend",
+  "version": "1.0.0",
+  "description": "CourseCraft AI Backend with ChatGPT integration",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node professional_server.js",
+    "dev": "nodemon professional_server.js",
+    "legacy": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.10.0",
+    "express-session": "^1.17.3",
+    "fs-extra": "^11.1.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "officegen": "^0.6.5",
+    "openai": "^4.104.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-microsoft": "^1.0.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.15.0",
+    "puppeteer": "^21.5.2",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "chatgpt",
+    "openai",
+    "file-upload",
+    "ai"
+  ],
+  "author": "CourseCraft Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
