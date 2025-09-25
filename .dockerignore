@@ -1,0 +1,17 @@
+ node_modules
+  npm-debug.log*
+  yarn-debug.log*
+  yarn-error.log*
+  .npm
+  .env
+  .git
+  .gitignore
+  README.md
+  *.md
+  test/
+  tests/
+  coverage/
+  .nyc_output
+  *.log
+  .DS_Store
+  Thumbs.db
